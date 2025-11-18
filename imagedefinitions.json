@@ -1,6 +1,6 @@
 [
   {
     "name": "app",
-    "imageUri": "<ACCOUNT_ID>.dkr.ecr.ap-northeast-1.amazonaws.com/ecr/sample:latest"
+    "imageUri": "546013511660.dkr.ecr.ap-northeast-1.amazonaws.com/ecr/sample:latest"
   }
 ]

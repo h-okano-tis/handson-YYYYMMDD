@@ -5,8 +5,8 @@ env:
     AWS_DEFAULT_REGION: ap-northeast-1    # 東京リージョン
     ECR_REPOSITORY: ecr/sample                # ECRリポジトリ名
     IMAGE_TAG: latest                      # Dockerイメージタグ
-    ECS_CLUSTER: <ECSクラスタ名>           # ECSクラスタ名
-    ECS_SERVICE: <ECSサービス名>           # ECSサービス名
+    ECS_CLUSTER: clusterDeployYYYYMMDD           # ECSクラスタ名
+    ECS_SERVICE: taskFamilyDeployYYYYMMDD-service-teuv1mmt           # ECSサービス名
 
 phases:
   pre_build:
